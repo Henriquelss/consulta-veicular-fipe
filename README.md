@@ -1,69 +1,72 @@
-# React + TypeScript + Vite
+![image](https://github.com/user-attachments/assets/5ba202c5-db3f-41a5-a5a8-350ba87496fd)# 🚗 Consulta Veicular FIPE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web moderna e responsiva para consultar o valor de mercado de veículos brasileiros de acordo com a Tabela FIPE. O projeto foi desenvolvido com foco em boas práticas de **React**, **componentização** e uma **experiência de usuário fluida**.
 
-Currently, two official plugins are available:
+![Print da aplicação](![image](https://github.com/user-attachments/assets/302a6ab6-1953-4049-becb-442fd8258f5d)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 📜 Sobre o Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O objetivo deste projeto é oferecer uma **interface limpa, intuitiva e responsiva** onde o usuário pode consultar o **valor FIPE** de um veículo de forma **rápida e precisa**. 
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Através de seleções em cascata, o usuário escolhe a **marca**, o **modelo** e o **ano** do veículo para obter informações detalhadas, incluindo:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Valor de mercado atualizado
+- Código FIPE
+- Mês de referência
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Além de ser uma ferramenta funcional, este projeto foi criado como **case de estudo** para aplicar conceitos avançados de **React**, como:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Hooks customizados
+- Gerenciamento de estado complexo
+- Integração com APIs externas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Funcionalidades Principais
+
+✅ **Seleção em Cascata**  
+A escolha da **marca** habilita o campo de **modelos**; a escolha do **modelo** habilita o campo de **anos**.
+
+✅ **Busca em Tempo Real**  
+Os dados são buscados dinamicamente de uma API pública a cada interação do usuário.
+
+✅ **Interface Responsiva**  
+Layout adaptável a celulares, tablets e desktops.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Categoria             | Tecnologias                          |
+|-----------------------|---------------------------------------|
+| **Frontend**          | React.js, TypeScript                  |
+| **Estilização**       | Tailwind CSS                          |
+| **Build Tool**        | Vite                                   |
+| **API**               | [FIPE API - Parallelum](https://deividfortuna.github.io/fipe/) |
+| **Deploy**            | GitHub Pages                          |
+| **Controle de Versão**| Git & GitHub                           |
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+### Pré-requisitos:
+- Node.js (versão 18 ou superior)
+- npm ou yarn
+- Bash ou terminal compatível
+
+### Passo a Passo:
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/Henriquelss/consulta-veicular-fipe.git
+
+# 2. Acesse o diretório do projeto
+cd consulta-veicular-fipe
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
