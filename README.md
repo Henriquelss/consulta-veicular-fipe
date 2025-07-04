@@ -21,8 +21,6 @@ Além de ser uma ferramenta funcional, este projeto foi criado como **case de es
 - Gerenciamento de estado complexo
 - Integração com APIs externas
 
----
-
 ## ✨ Funcionalidades Principais
 
 ✅ **Seleção em Cascata**  
@@ -34,8 +32,6 @@ Os dados são buscados dinamicamente de uma API pública a cada interação do u
 ✅ **Interface Responsiva**  
 Layout adaptável a celulares, tablets e desktops.
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 | Categoria             | Tecnologias                          |
@@ -46,8 +42,6 @@ Layout adaptável a celulares, tablets e desktops.
 | **API**               | [FIPE API - Parallelum](https://deividfortuna.github.io/fipe/) |
 | **Deploy**            | GitHub Pages                          |
 | **Controle de Versão**| Git & GitHub                           |
-
----
 
 ## 🚀 Como Executar o Projeto Localmente
 
