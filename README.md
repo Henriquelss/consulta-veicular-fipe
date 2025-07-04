@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/5ba202c5-db3f-41a5-a5a8-350ba87496fd)# 🚗 Consulta Veicular FIPE
+# 🚗 Consulta Veicular FIPE
+
+![image](https://github.com/user-attachments/assets/5ba202c5-db3f-41a5-a5a8-350ba87496fd)
 
 Uma aplicação web moderna e responsiva para consultar o valor de mercado de veículos brasileiros de acordo com a Tabela FIPE. O projeto foi desenvolvido com foco em boas práticas de **React**, **componentização** e uma **experiência de usuário fluida**.
 
