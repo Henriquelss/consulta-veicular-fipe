@@ -1,8 +1,8 @@
 # 🚗 Consulta Veicular FIPE
 
-https://img.shields.io/badge/license-MIT-yellow.svg"
+<https://img.shields.io/badge/license-MIT-yellow.svg>
 
-https://img.shields.io/github/deployments/henriquelss/consulta-veicular-fipe/github-pages?label=deploy">
+<https://img.shields.io/github/deployments/henriquelss/consulta-veicular-fipe/github-pages?label=deploy">
 
 ![image](https://github.com/user-attachments/assets/5ba202c5-db3f-41a5-a5a8-350ba87496fd)
 
